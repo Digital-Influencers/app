@@ -15,6 +15,10 @@ docker run --rm \
     
 sail up
 
+sail yarn install
+
+sail yarn dev
+
 
 
 ````
