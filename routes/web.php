@@ -1,3 +1,7 @@
 <?php
 
-Route::get('/auth/login',[\App\Http\Controllers\Theme\authentications\LoginCover::class, 'index']);
+use App\Http\Components\Auth\RegisterComponent;
+use App\Http\Controllers\Theme\authentications\LoginCover;
+
+Route::get('/auth/login', [LoginCover::class, 'index']);
+Route::get('/auth/register')->uses(RegisterComponent::class)->name('auth.register');
