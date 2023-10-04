@@ -1,9 +1,9 @@
 <?php
 // Variables
 return [
-  "creatorName" => "Pixinvent",
-  "creatorUrl" => "https://pixinvent.com",
-  "templateName" => "Materialize",
+  "creatorName" => "GarciaSoftwares ",
+  "creatorUrl" => "https://garciasoftwares.com",
+  "templateName" => "DigitalInfluencer",
   "templateSuffix" => "Materialize - Bootstrap 5 HTML Laravel Admin Template",
   "templateVersion" => "1.3.0",
   "templateFree" => false,

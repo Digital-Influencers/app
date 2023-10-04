@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'class_namespace' => 'App\\Http\\Controllers',
+    'class_namespace' => 'App\\Http\\Components',
 
     /*
     |---------------------------------------------------------------------------
@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'layout' => 'views.layouts.commonMaster.blade.php',
+    'layout' => 'layouts.layoutMaster',
 
     /*
     |---------------------------------------------------------------------------
