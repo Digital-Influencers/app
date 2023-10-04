@@ -14,7 +14,7 @@ $customizerHidden = ($customizerHidden ?? '');
 @section('layoutContent')
 
 <!-- Content -->
-@yield('content')
+{{ $slot }}
 <!--/ Content -->
 
 @endsection

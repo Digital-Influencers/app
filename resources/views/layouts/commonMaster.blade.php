@@ -35,15 +35,14 @@
     <!-- Include Styles -->
     <!-- $isFront is used to append the front layout styles only on the front layout otherwise the variable will be blank -->
     @include('layouts/sections/styles' . $isFront)
-    @livewireStyles
 
     <!-- Include Scripts for customizer, helper, analytics, config -->
     <!-- $isFront is used to append the front layout scriptsIncludes only on the front layout otherwise the variable will be blank -->
     @include('layouts/sections/scriptsIncludes' . $isFront)
+    @livewireStyles
 </head>
 
 <body>
-
 
 <!-- Layout Content -->
 @yield('layoutContent')
